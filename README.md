@@ -1,35 +1,34 @@
-# Model title
+# MolT5-Translation between Molecules and Natural Language
 
 ## Model identifiers
-- Slug: <add_slug_here>
-- Ersilia ID: <add_ersilia_id_here>
-- Tags: <add_tags_here>
+- Slug: molt5-smiles-to-caption
+- Ersilia ID: eos2rd8
+- Tags: Natural language, Description
 
 ## Model description
 
-Short description of the model in one or two sentences
+MolT5-based model used to generate a caption that describes a given molecule. The model is focused on bioactive molecules from ChEBI
 
-- Input:
-- Output: {unit and description of output) 
-- Model type: (Regression or Classification)
-- Training set: (number of compounds and link to the training data)
-- Mode of training: (is it pretrained? that is were the checkpoints downloaded and used to train the model? or is it retrained? that is trained from scratch with an updated data)
+- Input: Compound (SMILES)
+- Output: Text (Molecule description) 
+- Model type: Classification
+- Training set: ZINC-15 and Colossal Clean Crawled Corpus (C4)
+- Mode of training: Pre-trained
 
 ## Source code
 
-Cite the source publication
-
-- Code: include link to the source code
-- Checkpoints: include the link to the checkpoints used if model is a pretrained model
+Edwards, Carl & Lai, Tuan & Ros, Kevin & Honke, Garrett & Ji, Heng. (2022). Translation between Molecules and Natural Language. 
+https://arxiv.org/abs/2204.11817
+- Code: https://github.com/blender-nlp/MolT5
+- Checkpoints: N/A
 
 ## License
 
-State the licences used which are GPL v3 license used by Ersilia and the license used by the source code, if any exists. Use [this guide]() on how to license new models to be incorporated into Ersilia's model hub 
+The GPL-v3 license applies to all parts of the repository.
 
 ## History
 
-- State the date when the model was downloaded and incorporated into Ersilia.
-- List any essential steps/modifications to the original code
+- This model was incorporated into Ersilia on 11/14/2022.
 
 ## About us
 
