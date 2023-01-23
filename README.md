@@ -1,37 +1,40 @@
 # MolT5-Translation between Molecules and Natural Language
 
-## Model identifiers
-- Slug: molt5-smiles-to-caption
-- Ersilia ID: eos2rd8
-- Tags: Natural language, Description
+MolT5 (Molecular T5) is a self-supervised learning framework pretrained on unlabeled natural language text and molecule strings with two end goals: molecular captioning (given a molecule, generate its description) and text-based de novo molecular generation (given a description, propose a molecule that matches it). This implementation is focused on molecular captioning.
 
-## Model description
+## Identifiers
 
-MolT5-based model used to generate a caption that describes a given molecule. The model is focused on bioactive molecules from ChEBI
+* EOS model ID: `eos2rd8`
+* Slug: `molt5-smiles-to-caption`
 
-- Input: Compound (SMILES)
-- Output: Text (Molecule description) 
-- Model type: Classification
-- Training set: ZINC-15 and Colossal Clean Crawled Corpus (C4)
-- Mode of training: Pre-trained
+## Characteristics
 
-## Source code
+* Input: `Compound`
+* Input Shape: `Single`
+* Task: `Generative`
+* Output: `Text`
+* Output Type: `String`
+* Output Shape: `Single`
+* Interpretation: Description of a molecule
 
-Edwards, Carl & Lai, Tuan & Ros, Kevin & Honke, Garrett & Ji, Heng. (2022). Translation between Molecules and Natural Language. 
-https://arxiv.org/abs/2204.11817
-- Code: https://github.com/blender-nlp/MolT5
-- Checkpoints: N/A
+## References
+
+* [Publication](https://arxiv.org/abs/2204.11817)
+* [Source Code](https://github.com/blender-nlp/MolT5)
+* Ersilia contributor: [Amna-28](https://github.com/Amna-28)
+
+## Citation
+
+If you use this model, please cite the [original authors](https://arxiv.org/abs/2204.11817) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).
 
 ## License
 
-The GPL-v3 license applies to all parts of the repository.
+This package is licensed under a GPL-3.0 license. The model contained within this package is licensed under a None license.
 
-## History
+Notice: Ersilia grants access to these models 'as is' provided by the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
-- This model was incorporated into Ersilia on 11/14/2022.
-
-## About us
+## About Us
 
 The [Ersilia Open Source Initiative](https://ersilia.io) is a Non Profit Organization ([1192266](https://register-of-charities.charitycommission.gov.uk/charity-search/-/charity-details/5170657/full-print)) with the mission is to equip labs, universities and clinics in LMIC with AI/ML tools for infectious disease research.
 
-[Help us](https://www.ersilia.io/donate) achieve our mission or [volunteer](https://www.ersilia.io/volunteer) with us!
+[Help us](https://www.ersilia.io/donate) achieve our mission!
