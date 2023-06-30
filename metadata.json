@@ -27,5 +27,6 @@
     "Publication": "https://arxiv.org/abs/2204.11817",
     "Source Code": "https://github.com/blender-nlp/MolT5",
     "License": "None",
-    "Contributor": "Amna-28"
+    "Contributor": "Amna-28",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip"
 }
