@@ -26,6 +26,7 @@ MolT5 (Molecular T5) is a self-supervised learning framework pretrained on unlab
 ## Ersilia model URLs
 * [GitHub](https://github.com/ersilia-os/eos2rd8)
 * [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos2rd8) (AMD64)
 
 ## Citation
 
