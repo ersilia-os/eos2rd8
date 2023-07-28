@@ -12,24 +12,7 @@ jobs:
     if: ${{ github.repository != 'ersilia-os/eos-template' && github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: |
-            ${{ runner.workspace }}/.conda
-            ${{ runner.workspace }}/ersilia
-            ${{ runner.workspace }}/.cache/pip
-          key: ${{ runner.os }}-conda-pip-${{ github.sha }}
-    
-      - name: Cache Docker image
-        id: cache-docker-image
-        uses: actions/cache@v2
-        with:
-          path: |
-            /var/lib/docker
-          key: ${{ runner.os }}-docker-${{ github.event.repository.name }}-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-docker-${{ github.event.repository.name }}-
+      
       # https://github.com/docker/setup-qemu-action
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
