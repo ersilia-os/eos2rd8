@@ -11,7 +11,7 @@ MolT5 (Molecular T5) is a self-supervised learning framework pretrained on unlab
 
 * Input: `Compound`
 * Input Shape: `Single`
-* Task: `Generative`
+* Task: `Representation`
 * Output: `Text`
 * Output Type: `String`
 * Output Shape: `Single`
