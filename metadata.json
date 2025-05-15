@@ -4,33 +4,43 @@
     "Status": "Ready",
     "Title": "MolT5-Translation between Molecules and Natural Language",
     "Description": "MolT5 (Molecular T5) is a self-supervised learning framework pretrained on unlabeled natural language text and molecule strings with two end goals: molecular captioning (given a molecule, generate its description) and text-based de novo molecular generation (given a description, propose a molecule that matches it). This implementation is focused on molecular captioning.\n",
-    "Mode": "Pretrained",
+    "Source": "Local",
+    "Source Type": "External",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
-    "Task": [
-        "Representation"
+    "Input Dimension": 1,
+    "Task": "Representation",
+    "Subtask": "Featurization",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
     ],
     "Output": [
         "Text"
     ],
-    "Output Type": [
-        "String"
-    ],
-    "Output Shape": "Single",
+    "Output Dimension": 1,
+    "Output Consistency": "Fixed",
     "Interpretation": "Description of a molecule",
     "Tag": [
         "Chemical language model",
         "Chemical notation"
     ],
-    "Publication": "https://arxiv.org/abs/2204.11817",
+    "Publication": "https://aclanthology.org/2022.emnlp-main.26/",
+    "Publication Type": "Peer reviewed",
+    "Publication Year": 2022,
     "Source Code": "https://github.com/blender-nlp/MolT5",
-    "License": "None",
+    "License": "BSD-3-Clause",
     "Contributor": "Amna-28",
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip",
+    "Incorporation Date": "2022-11-14",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2rd8",
     "Docker Architecture": [
         "AMD64"
+    ],
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip",
+    "Deployment": [
+        "Local"
     ]
 }
