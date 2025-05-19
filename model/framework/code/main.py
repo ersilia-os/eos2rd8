@@ -28,9 +28,6 @@ with open(input_file, "r") as f:
 # run model
 outputs = my_model(smiles_list)
 
-for o in outputs:
-    o = o.replace(",", " ")
-
 # write output in a .csv file
 with open(output_file, "w") as f:
     writer = csv.writer(f)
