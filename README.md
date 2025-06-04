@@ -35,13 +35,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2rd8](https://hub.docker.com/r/ersiliaos/eos2rd8)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `1203`
+- **Image Size (Mb):** `1144.3`
 
+**Computational Performance (seconds):**
+- 10 inputs: `136.92`
+- 100 inputs: `-1`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://github.com/blender-nlp/MolT5](https://github.com/blender-nlp/MolT5)
