@@ -4,6 +4,7 @@ MolT5 (Molecular T5) is a self-supervised learning framework pretrained on unlab
 
 This model was incorporated on 2022-11-14.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos2rd8`
@@ -13,7 +14,7 @@ This model was incorporated on 2022-11-14.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Chemical language model`, `Chemical notation`
 
 ### Input
