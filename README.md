@@ -2,8 +2,7 @@
 
 MolT5 (Molecular T5) is a self-supervised learning framework pretrained on unlabeled natural language text and molecule strings with two end goals: molecular captioning (given a molecule, generate its description) and text-based de novo molecular generation (given a description, propose a molecule that matches it). This implementation is focused on molecular captioning.
 
-This model was incorporated on 2022-11-14.
-
+This model was incorporated on 2022-11-14.Last packaged on 2025-10-15.
 
 ## Information
 ### Identifiers
@@ -42,10 +41,10 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `1200`
-- **Image Size (Mb):** `1144.3`
+- **Image Size (Mb):** `1156.91`
 
 **Computational Performance (seconds):**
-- 10 inputs: `136.92`
+- 10 inputs: `84.73`
 - 100 inputs: `-1`
 - 10000 inputs: `-1`
 
