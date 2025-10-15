@@ -38,6 +38,8 @@
     "License": "BSD-3-Clause",
     "Contributor": "Amna-28",
     "Incorporation Date": "2022-11-14",
+    "Last Packaging Date": "2025-10-15",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos2rd8",
     "Docker Architecture": [
@@ -46,9 +48,9 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 1200.0,
-    "Image Size": 1144.3,
-    "Computational Performance 1": 136.92,
-    "Computational Performance 2": 836.71,
+    "Image Size": 1156.91,
+    "Computational Performance 1": 84.73,
+    "Computational Performance 2": 292.27,
     "Computational Performance 3": -1.0,
     "Computational Performance 4": -1.0,
     "Computational Performance 5": -1.0
