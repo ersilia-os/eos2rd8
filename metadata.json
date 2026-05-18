@@ -33,7 +33,7 @@
     ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2022,
-    "Publication": "https://aclanthology.org/2022.emnlp-main.26/",
+    "Publication": "https://doi.org/10.18653/v1/2022.emnlp-main.26",
     "Source Code": "https://github.com/blender-nlp/MolT5",
     "License": "BSD-3-Clause",
     "Contributor": "Amna-28",
