@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/blender-nlp/MolT5](https://github.com/blender-nlp/MolT5)
-- **Publication**: [https://aclanthology.org/2022.emnlp-main.26/](https://aclanthology.org/2022.emnlp-main.26/)
+- **Publication**: [https://doi.org/10.18653/v1/2022.emnlp-main.26](https://doi.org/10.18653/v1/2022.emnlp-main.26)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2022`
 - **Ersilia Contributor:** [Amna-28](https://github.com/Amna-28)
