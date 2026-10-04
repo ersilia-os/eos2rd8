@@ -1,6 +1,6 @@
 # MolT5-Translation between Molecules and Natural Language
 
-MolT5 (Molecular T5) is a self-supervised learning framework pretrained on unlabeled natural language text and molecule strings with two end goals: molecular captioning (given a molecule, generate its description) and text-based de novo molecular generation (given a description, propose a molecule that matches it). This implementation is focused on molecular captioning.
+Generates a natural-language caption describing a molecule, translating structure into prose rather than into another chemical format. MolT5, from Edwards and colleagues, adapts a text-to-text Transformer by pretraining jointly on molecular strings and scientific text, allowing translation in both directions between SMILES and English. Output is generative, so descriptions can be fluent yet inaccurate, and should be treated as a starting point for human interpretation rather than a verified annotation.
 
 This model was incorporated on 2022-11-14.Last packaged on 2025-10-15.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2022-11-14.Last packaged on 2025-10-15.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Description of a molecule
+- **Interpretation:** Natural language description of the input molecule generated from its structure.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
