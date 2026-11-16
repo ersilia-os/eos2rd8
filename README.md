@@ -2,7 +2,8 @@
 
 Generates a natural-language caption describing a molecule, turning structure into prose rather than into another chemical format. MolT5, from Edwards and colleagues, adapts a text-to-text Transformer pretrained jointly on ZINC molecule strings and web text, then fine-tuned on the ChEBI-20 captioning set. The framework translates in both directions, but only structure to text is served here. Captions are generated, so they can read fluently and still be wrong, and are better treated as a starting point than a verified annotation.
 
-This model was incorporated on 2022-11-14.Last packaged on 2025-10-15.
+This model was incorporated on 2022-11-14.
+Last packaged on 2025-10-15.
 
 ## Information
 ### Identifiers
