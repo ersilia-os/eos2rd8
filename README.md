@@ -3,7 +3,7 @@
 Generates a natural-language caption describing a molecule, turning structure into prose rather than into another chemical format. MolT5, from Edwards and colleagues, adapts a text-to-text Transformer pretrained jointly on ZINC molecule strings and web text, then fine-tuned on the ChEBI-20 captioning set. The framework translates in both directions, but only structure to text is served here. Captions are generated, so they can read fluently and still be wrong, and are better treated as a starting point than a verified annotation.
 
 This model was incorporated on 2022-11-14.
-Last packaged on 2025-10-15.
+Last packaged on 2026-11-16.
 
 ## Information
 ### Identifiers
@@ -36,16 +36,16 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2rd8](https://hub.docker.com/r/ersiliaos/eos2rd8)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2rd8.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `2992`
 - **Environment Size (Mb):** `1205`
-- **Image Size (Mb):** `1156.91`
+- **Image Size (Mb):** `3126.01`
 
 **Computational Performance (seconds):**
-- 10 inputs: `84.73`
+- 10 inputs: `67.33`
 - 100 inputs: `-1`
 - 10000 inputs: `-1`
 
